@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/react-test/static/css/main.2fcaf354.css",
-    "main.js": "/github.io/react-test/static/js/main.af8627b8.js",
-    "static/js/787.0c3f432a.chunk.js": "/github.io/react-test/static/js/787.0c3f432a.chunk.js",
-    "index.html": "/github.io/react-test/index.html",
-    "main.2fcaf354.css.map": "/github.io/react-test/static/css/main.2fcaf354.css.map",
-    "main.af8627b8.js.map": "/github.io/react-test/static/js/main.af8627b8.js.map",
-    "787.0c3f432a.chunk.js.map": "/github.io/react-test/static/js/787.0c3f432a.chunk.js.map"
+    "main.css": "/react-test/static/css/main.2fcaf354.css",
+    "main.js": "/react-test/static/js/main.649c0cf1.js",
+    "static/js/787.0c3f432a.chunk.js": "/react-test/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/react-test/index.html",
+    "main.2fcaf354.css.map": "/react-test/static/css/main.2fcaf354.css.map",
+    "main.649c0cf1.js.map": "/react-test/static/js/main.649c0cf1.js.map",
+    "787.0c3f432a.chunk.js.map": "/react-test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fcaf354.css",
-    "static/js/main.af8627b8.js"
+    "static/js/main.649c0cf1.js"
   ]
 }
