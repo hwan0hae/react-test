@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "depoly": "gh-pages -d build",
-    "redepoly": "npm run build"
+    "predepoly": "npm run build"
   },
   "eslintConfig": {
     "extends": [
