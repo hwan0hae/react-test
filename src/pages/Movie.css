@@ -1,0 +1,53 @@
+.movie {
+  background-color: white;
+  margin-bottom: 70px;
+  font-weight: 300;
+  padding: 20px;
+  border-radius: 10px; /*모서리 둥글게*/
+  color: #adaeb9 inherit;
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 2fr;
+  grid-gap: 20px;
+  text-decoration: none;
+  border: 1px outset;
+  /* box-shadow 좌(-)우(+) / 상(-)하(+) / 흐림도 / 스프레드(확장성) / 색상-rgb (a- 투명도) / ,로인해 여러개의 그림자 형성*/
+  box-shadow: 0px 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.movie_img {
+  position: relative; /* 기본값 static-위치를 임의로 설정 불가 / relative-원래 위치 기준으로 좌표 지정 ex)top: -50px*/
+  top: -50px;
+  max-width: 150px;
+  width: 100%;
+  margin-right: 30px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.moive_title,
+.movie_year {
+  margin: 0;
+  font-weight: 300;
+  text-decoration: none;
+}
+.movie_title a {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.movie_genres {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* 나열된 요소들의 총넓이가 부모보다 넓을 때 다음 줄에 나열해주는 기능 */
+  margin: 5px 0px;
+}
+
+.movie_genres li,
+.movie_year {
+  margin-right: 10px;
+  font-size: 14px;
+}
