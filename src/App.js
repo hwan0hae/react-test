@@ -12,9 +12,11 @@ function App() {
     <div className='App'>
       <h1>TEST</h1>
       <br />
-      <Link to='/'> HOME </Link> | <Link to='/counter'> Counter </Link> |{' '}
-      <Link to='/todoList'> Todo List </Link> |{' '}
-      <Link to='/movieList'> Movie List </Link>
+      <div className='nav'>
+        <Link to='/'> HOME </Link> | <Link to='/counter'> Counter </Link> |{' '}
+        <Link to='/todoList'> Todo List </Link> |{' '}
+        <Link to='/movieList'> Movie List </Link>
+      </div>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/counter' element={<Counter />} />
